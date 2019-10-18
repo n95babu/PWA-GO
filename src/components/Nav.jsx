@@ -6,7 +6,7 @@ import logo from '../assets/logo.png'
 const Navigation = () => {
   return (
     <>
-      <Navbar bg="info" expand="sm" >
+      <Navbar className='Navbar' expand="sm" >
         <Navbar.Brand href="/">
           <img
             src={logo}
@@ -19,10 +19,7 @@ const Navigation = () => {
         <Navbar.Collapse className="collapse navbar-collapse justify-content-end">
           <Nav>
             <Nav.Link href="/about">BATHROOM</Nav.Link>
-            <NavDropdown title="Map" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/desserts">TBD</NavDropdown.Item>
-              <NavDropdown.Item href="/pies">TBD</NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href="/Map">MAP</Nav.Link>
             <Nav.Link href="/contact">CONNECT</Nav.Link>
           </Nav>
         </Navbar.Collapse>
