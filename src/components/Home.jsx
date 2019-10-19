@@ -12,13 +12,13 @@ function Home() {
             <span>
               <div className='home-greet'>
                 {/* <h1>Get Out There</h1> */}
-                <form>
+                {/* <form>
                   <div className='form-group'>
                     <input type="text" />
 
                   </div>
                   <button type="submit" class="btn btn-light">Submit</button>
-                </form>
+                </form> */}
               </div>
             </span>
           </animated.div>

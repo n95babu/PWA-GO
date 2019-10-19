@@ -19,11 +19,6 @@ body {
   height: 10vmin;
 }
 
-/* .Navbar {
-  background: red;
-  ;
-} */
-
 div.navbar-collapse.collapse {
   text-align: right;
 }

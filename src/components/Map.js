@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Map() {
   return (
-    <div>
+    <div className='page'>
       <h1>Map</h1>
     </div>
   )
