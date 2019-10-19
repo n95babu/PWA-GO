@@ -1,16 +1,52 @@
-.App {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logo {
   height: 10vmin;
 }
 
-.Navbar {
+/* .Navbar {
   background: red;
   ;
-}
+} */
 
 div.navbar-collapse.collapse {
   text-align: right;
 }
+
+/* ==================== */
+
+.home-page {
+  background: linear-gradient( 45deg, rgba(171, 152, 122, 0.8), rgba(0, 0, 128, 0.4)), url(./assets//nb3.gif);
+  /* background: url('./assets/nb3.gif'); */
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+
+.home-hero, .home-hero {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .gate-hero img, .home-hero img {
+  margin: 20px auto;
+  max-width: 60%;
+} */
