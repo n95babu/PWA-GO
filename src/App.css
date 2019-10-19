@@ -50,3 +50,30 @@ div.navbar-collapse.collapse {
   margin: 20px auto;
   max-width: 60%;
 } */
+
+.home-greet {
+  vertical-align: baseline;
+  padding-top: 14rem;
+  padding-bottom: 19rem;
+  /* margin: 100%;
+  position: fixed; */
+}
+
+.home-greet h1 {
+  font-size: 3rem;
+  font-family: "adelle-sans", Helvetica, Arial, "Nimbus Sans L", sans-serif;
+}
+
+/* .container {
+  background-size: 1.25em;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 1em) center;
+  padding-right: 1.25em;
+  text-overflow: ellipsis;
+  padding: 0 40px;
+  margin: 0;
+} */
+
+.contact-page {
+  padding-top: 25px;
+}

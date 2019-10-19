@@ -9,7 +9,18 @@ function Home() {
       <div className="hero home-hero">
         <div>
           <animated.div style={props}>
-            <h1>Home</h1>
+            <span>
+              <div className='home-greet'>
+                {/* <h1>Get Out There</h1> */}
+                <form>
+                  <div className='form-group'>
+                    <input type="text" />
+
+                  </div>
+                  <button type="submit" class="btn btn-light">Submit</button>
+                </form>
+              </div>
+            </span>
           </animated.div>
         </div>
       </div>
