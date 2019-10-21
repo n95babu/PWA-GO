@@ -41,6 +41,16 @@ div.navbar-collapse.collapse {
   justify-content: center;
 }
 
+.main_text {
+  width: 100%;
+  color: #fff;
+  font-weight: bold;
+  min-height: 80vh;
+  /* padding-top: 5rem; */
+  /* padding-bottom: 17rem; */
+  font-size: 30px;
+}
+
 /* .gate-hero img, .home-hero img {
   margin: 20px auto;
   max-width: 60%;
@@ -78,4 +88,17 @@ div.navbar-collapse.collapse {
 #mapLogo {
   width: 20px;
   height: 20px;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .main_text {
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    /* padding-top: -5rem; */
+    /* min-height: 80vh; */
+    /* padding-top: 5rem; */
+    /* padding-bottom: 17rem; */
+    font-size: 20px;
+  }
 }

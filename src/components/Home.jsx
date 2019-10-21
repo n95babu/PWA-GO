@@ -12,6 +12,9 @@ function Home() {
           <animated.div style={props}>
             <span>
               <div className='home-greet'>
+                <div className="main_text">
+                  Bringing a better bathroom experience to people and communities in NYC.
+                </div>
                 {/* <h1>Get Out There</h1> */}
                 {/* <form>
                   <div className='form-group'>
