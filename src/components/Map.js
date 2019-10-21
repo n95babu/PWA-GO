@@ -1,9 +1,8 @@
 
 import React, { useState, useEffect } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
-// import * as parkDate from "../data/bathroom-public.json";
-// import logo from './logo_copy.png';
-
+import * as parkDate from "../data/bathroom-public.json";
+import logo from '../assets/logo.png'
 
 
 
@@ -39,7 +38,7 @@ export default function Map() {
           setViewport(viewport);
         }}
       >
-        {/* {parkDate.features.map(park => (
+        {parkDate.features.map(park => (
           <Marker
             key={park.properties.PARK_ID}
             latitude={park.geometry.coordinates[1]}
@@ -55,7 +54,7 @@ export default function Map() {
               <img id="mapLogo" src={logo} alt="Bathroom" />
             </button>
           </Marker>
-        ))}; */}
+        ))};
 
         {selectedPark ? (
           <Popup

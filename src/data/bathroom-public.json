@@ -1,0 +1,315 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 960,
+        "NAME": "Playground 174",
+        "ADDRESS": "174th Street Playground",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.871939,
+          40.838107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1219,
+        "NAME": "Albemarle Park",
+        "ADDRESS": "Albemarle RdBrooklyn, NY",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958302,
+          40.647492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 12149,
+        "NAME": "General Assembly",
+        "ADDRESS": "10 E 21st St, New York, NY 10010",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990064,
+          40.74006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1157,
+        "NAME": "Alexander Hamilton Playground",
+        "ADDRESS": "Hamilton Place, West 140 to West 141 streets",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007228,
+          40.713054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 9,
+        "NAME": "Alley Pond Park",
+        "ADDRESS": " 67 Avenue & 230 Street",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.817302,
+          40.759776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1160,
+        "NAME": "Arrochar Playground",
+        "ADDRESS": "Sand Ln, Staten Island, NY 10305",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.076203,
+          40.643498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1693,
+        "NAME": "Asser Levy",
+        "ADDRESS": "101 Centrepointe Drive",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.976182,
+          40.73615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1717,
+        "NAME": "Battery Park Comfort Station",
+        "ADDRESS": "3142 Conroy Road",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.015573,
+          40.70483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 137,
+        "NAME": "Bloomingdale Park",
+        "ADDRESS": "65 Stonehaven Drive",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.218288,
+          40.542518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 1133,
+        "NAME": "Prospect Park",
+        "ADDRESS": "100 Clifford Campbell Street",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.979637,
+          40.661189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 657,
+        "NAME": "Chelsea Recreation Center",
+        "ADDRESS": "South of West 25 Street, 9 to 10 avenues",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007228,
+          40.713054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 12105,
+        "NAME": "John Bake",
+        "ADDRESS": "10 E 21st St, New York, NY 10010",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940064,
+          40.73006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 12107,
+        "NAME": "Side Weste ",
+        "ADDRESS": "10 E 21st St, New York, NY 10010",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.980064,
+          40.74036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 12101,
+        "NAME": "YO Mama",
+        "ADDRESS": "10 E 21st St, New York, NY 10010",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990024,
+          40.74007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 12103,
+        "NAME": "Apple Park",
+        "ADDRESS": "10 E 21st St, New York, NY 10010",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990044,
+          40.74009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 12160,
+        "NAME": "Flat Iron",
+        "ADDRESS": "10 E 21st St, New York, NY 10010",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990164,
+          40.74106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 121077,
+        "NAME": "Central Park",
+        "ADDRESS": "10 E 21st St, New York, NY 10010",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990564,
+          40.740066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 12100,
+        "NAME": "Tri Pat",
+        "ADDRESS": "10 E 21st St, New York, NY 10010",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.990004,
+          40.740067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "PARK_ID": 2113,
+        "NAME": "Columbus Park",
+        "ADDRESS": "Adams, Johnson, Fulton, Joralemon streets",
+        "PICTURE__1": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.922724,
+          40.678174
+        ]
+      }
+    }
+  ]
+}

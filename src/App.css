@@ -72,3 +72,10 @@ div.navbar-collapse.collapse {
 .contact-page {
   padding-top: 25px;
 }
+
+/* ====================Map================ */
+
+#mapLogo {
+  width: 20px;
+  height: 20px;
+}
