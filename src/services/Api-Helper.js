@@ -9,8 +9,9 @@ export const fetchBathrooms = async () => {
   return data;
 };
 
-export const fethRandomBathrooms = async () => {
-  const response = await axios.get(``);
+export const fethRandomBathrooms = async (borough) => {
+  // borough.charAt(0).toUpperCase() + borough.slice(1);
+  const response = await axios.get(`https://data.cityofnewyork.us/resource/hjae-yuav.json?borough=${borough}`);
   const data = response.data;
   return data;
 };

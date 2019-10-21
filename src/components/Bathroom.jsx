@@ -1,22 +1,18 @@
 import React, { Component } from 'react'
-import { fetchBathrooms } from '../services/Api-Helper'
-import { makeStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import ButtonBase from '@material-ui/core/ButtonBase';
-import logo from '../assets/logo.png';
-
-
-
-
-
+import { fetchBathrooms, fethRandomBathrooms } from '../services/Api-Helper'
+import Random from './Random'
 
 class Bathroom extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      userInput: '',
       bathrooms: [],
+      userBathrooms: [],
+      name: '',
+      borough: '',
+      location: '',
+      open_year_round: ''
     };
   }
 
@@ -26,63 +22,41 @@ class Bathroom extends Component {
       bathrooms: data,
     });
   }
+  handleSubmit = async (e) => {
+    e.preventDefault();
+    const Home = await fethRandomBathrooms(this.state.userInput)
+    console.log(Home)
+    this.setState({
+      userBathrooms: Home
+    });
+  };
+
+  handleChange = (e) => {
+    this.setState({
+      userInput: e.target.value
+    })
+  }
 
 
 
 
 
   render() {
-    const useStyles = makeStyles(theme => ({
-      root: {
-        flexGrow: 4,
-      },
-      paper: {
-        padding: theme.spacing(2),
-        margin: 'auto',
-        maxWidth: 400,
-      },
-      image: {
-        width: 128,
-        height: 128,
-      },
-      img: {
-        margin: 'auto',
-        display: 'block',
-        maxWidth: '100%',
-        maxHeight: '100%',
-      },
-
-    }));
     return (
       <div className='page'>
-        {this.state.bathrooms.map((bathroom) => (
-          <div className={useStyles.root}>
-            <Paper className={useStyles.paper}>
-              <Grid container spacing={2}>
-                <Grid item>
-                  <ButtonBase className={useStyles.image}>
-                    <img className={useStyles.img} alt="complex" src={logo} />
-                  </ButtonBase>
-                </Grid>
-                <Grid item xs={12} sm container>
-                  <Grid item xs container direction="column" spacing={2}>
-                    <Grid item xs>
-                      <Typography gutterBottom variant="subtitle1">
-                        {bathroom.borough}
-                      </Typography>
-                      <Typography variant="body2" gutterBottom>
-                        {bathroom.name}
-                      </Typography>
-                      <Typography variant="body2" color="textSecondary">
-                        {bathroom.location}
-                      </Typography>
-                    </Grid>
-                  </Grid>
-                </Grid>
-              </Grid>
-            </Paper>
-          </div>
-        ))}
+        <div>
+          <Random
+            userInput={this.state.userInput}
+            handleChange={this.handleChange}
+            handleSubmit={this.handleSubmit}
+            userBathrooms={this.state.userBathrooms}
+          />
+        </div>
+        <div>
+          {/* {this.state.bathrooms.map((bathroom) => (
+            // <h4>{bathroom.name}</h4>
+          ))} */}
+        </div>
       </div>
     );
   };
