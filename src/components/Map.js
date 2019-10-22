@@ -1,9 +1,14 @@
-
 import React, { useState, useEffect } from "react";
-import ReactMapGL, { Marker, Popup } from "react-map-gl";
+import ReactMapGL, { Marker, Popup, GeolocateControl } from "react-map-gl";
 import * as parkDate from "../data/bathroom-public.json";
 import logo from '../assets/logo.png'
 
+const geolocateStyle = {
+  position: 'absolute',
+  top: 0,
+  left: 0,
+  margin: 10
+};
 
 
 export default function Map() {
@@ -38,6 +43,11 @@ export default function Map() {
           setViewport(viewport);
         }}
       >
+        <GeolocateControl
+          style={geolocateStyle}
+          positionOptions={{ enableHighAccuracy: true }}
+          trackUserLocation={true}
+        />
         {parkDate.features.map(park => (
           <Marker
             key={park.properties.PARK_ID}
