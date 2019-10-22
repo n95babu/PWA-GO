@@ -37,10 +37,6 @@ class Bathroom extends Component {
     })
   }
 
-
-
-
-
   render() {
     return (
       <div className='page'>
@@ -51,11 +47,6 @@ class Bathroom extends Component {
             handleSubmit={this.handleSubmit}
             userBathrooms={this.state.userBathrooms}
           />
-        </div>
-        <div>
-          {/* {this.state.bathrooms.map((bathroom) => (
-            // <h4>{bathroom.name}</h4>
-          ))} */}
         </div>
       </div>
     );

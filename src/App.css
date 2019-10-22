@@ -23,7 +23,7 @@ div.navbar-collapse.collapse {
   text-align: right;
 }
 
-/* ==================== */
+/* ====================Home PG ================================= */
 
 .home-page {
   background: linear-gradient( 45deg, rgba(171, 152, 122, 0.8), rgba(0, 0, 128, 0.4)), url(./assets//nb3.gif);
@@ -48,11 +48,6 @@ div.navbar-collapse.collapse {
   font-size: 30px;
 }
 
-/* .home-greet {
-  vertical-align: baseline;
-  padding-top: 75%;
-} */
-
 .home-greet h1 {
   font-size: 3rem;
   font-family: "adelle-sans", Helvetica, Arial, "Nimbus Sans L", sans-serif;
@@ -67,22 +62,6 @@ div.navbar-collapse.collapse {
 #mapLogo {
   width: 20px;
   height: 20px;
-}
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  /* .main_text {
-    width: 100%;
-    color: #fff;
-    font-weight: bold;
-    padding-top: 40%;
-    font-size: 25px;
-  } */
-  .lead {
-    font-size: 18px;
-  }
-  .jumbotron {
-    background-color: inherit;
-  }
 }
 
 .rounded-pill {
@@ -107,4 +86,27 @@ button {
 
 .lead {
   font-weight: bold;
+  font-size: 30px;
+}
+
+/*==========================Contact =================================== */
+
+.contact-page {
+  padding-top: 30%;
+}
+
+/* =======================================Midia Quries================== */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .lead {
+    font-size: 20px;
+  }
+  .jumbotron {
+    background-color: inherit;
+  }
+  .contact-page {
+    padding-top: 30%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }

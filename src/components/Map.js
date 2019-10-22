@@ -10,7 +10,6 @@ const geolocateStyle = {
   margin: 10
 };
 
-
 export default function Map() {
   const [viewport, setViewport] = useState({
     latitude: 40.730610,

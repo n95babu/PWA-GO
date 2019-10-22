@@ -5,7 +5,6 @@ export default function Contact() {
     <>
       <div className='page contact-page'>
         <h4>Contact</h4>
-        {/* <h1>Let's talk digital</h1> */}
         <form>
           <div className="form-row">
             <div className="col-md-6">
