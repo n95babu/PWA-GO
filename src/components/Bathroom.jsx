@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { fetchBathrooms, fethRandomBathrooms } from '../services/Api-Helper'
+import React, { Component } from 'react';
+import { fetchBathrooms, fethRandomBathrooms } from '../services/Api-Helper';
 import Random from './Random'
 
 class Bathroom extends Component {

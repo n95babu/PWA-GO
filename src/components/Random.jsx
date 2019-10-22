@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRestroom } from '@fortawesome/free-solid-svg-icons';
 
 class Random extends React.Component {
   render() {
@@ -21,6 +23,7 @@ class Random extends React.Component {
             {this.props.userBathrooms.map(bathroom => (
               <div className="rounded-pill">
                 <div className="scrollable">
+                  <FontAwesomeIcon icon={faRestroom} />
                   <h3>{bathroom.borough}</h3>
                   <p>{bathroom.name}</p>
                   <p>{bathroom.location}</p>

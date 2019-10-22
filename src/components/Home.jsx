@@ -11,18 +11,17 @@ function Home() {
         <div>
           <animated.div style={props}>
             <span>
-              <div className='home-greet'>
+              {/* <div className='home-greet'>
                 <div className="main_text">
+
                   Bringing a better bathroom experience to people and communities in NYC.
                 </div>
-                {/* <h1>Get Out There</h1> */}
-                {/* <form>
-                  <div className='form-group'>
-                    <input type="text" />
-
-                  </div>
-                  <button type="submit" class="btn btn-light">Submit</button>
-                </form> */}
+              </div> */}
+              <div className="jumbotron jumbotron-fluid">
+                <div className="container">
+                  {/* <h1 class="display-4">Fluid jumbotron</h1> */}
+                  <div className="lead">Bringing a better bathroom experience to people and communities in NYC.</div>
+                </div>
               </div>
             </span>
           </animated.div>
