@@ -7,11 +7,11 @@ export default function Contact() {
         <h4>Contact</h4>
         {/* <h1>Let's talk digital</h1> */}
         <form>
-          <div className="row">
-            <div className="col">
+          <div className="form-row">
+            <div className="col-md-6">
               <input type="text" className="form-control" placeholder="Name" />
             </div>
-            <div className="col">
+            <div className="col-md-6">
               <input type="email" className="form-control" placeholder="Email" />
             </div>
           </div>
