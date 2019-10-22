@@ -17,7 +17,10 @@ export default function Map() {
     longitude: -73.935242,
     width: "100vw",
     height: "100vh",
-    zoom: 10
+    zoom: 10,
+    bearing: 0,
+    pitch: 0,
+
   });
   const [selectedPark, setSelectedPark] = useState(null);
   useEffect(() => {
