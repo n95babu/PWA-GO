@@ -1,25 +1,47 @@
-import React from 'react'
+import React from 'react';
+import axios from 'axios';
+import Button from 'react-bootstrap/Button';
 
-export default function Contact() {
-  return (
-    <>
-      <div className='page contact-page'>
-        <h4>Contact</h4>
-        <form>
-          <div className="form-row">
-            <div className="col-md-6">
-              <input type="text" className="form-control" placeholder="Name" />
-            </div>
-            <div className="col-md-6">
-              <input type="email" className="form-control" placeholder="Email" />
-            </div>
+class ContactForm extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { name: "", email: "", message: "" };
+  }
+  handleForm = e => {
+    axios.post(
+      "https://formcarry.com/s/SSb8VgBqK1e",
+      this.state,
+      { headers: { "Accept": "application/json" } }
+    )
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error)
+      });
+    // e.preventDefault();
+    // alert("Message Sent")
+  }
+  handleFields = e => this.setState({
+    [e.target.name]: e.target.value
+  })
+
+  render() {
+    return (
+      <>
+        <div className="page">
+          <div className="form-address" id="contact">
+            <form className="contact-form" onSubmit={this.handleForm}><p className="contact-us">Contact Us</p>
+              <input className="input" type="text" name="name" required onChange={this.handleFields} placeholder="Name" />
+              <input className="input" type="text" name="email" required onChange={this.handleFields}
+                placeholder="Email" />
+              <input className="input" type="" name="message" required onChange={this.handleFields} placeholder="What's on your mind?" />
+              <Button type="submit" className="btn btn-dark">SUMBIT</Button>
+            </form>
           </div>
-          <div className="form-group">
-            <textarea type="text" className="form-control" id="message" placeholder="Message" rows="5" ></textarea>
-          </div>
-          <button type="submit" >Send Message</button>
-        </form>
-      </div>
-    </>
-  )
+        </div>
+      </>
+    )
+  }
 }
+export default ContactForm

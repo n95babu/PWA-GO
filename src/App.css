@@ -91,8 +91,58 @@ button {
 
 /*==========================Contact =================================== */
 
-.contact-page {
-  padding-top: 30%;
+.contact-section p {
+  display: flex;
+  align-self: center;
+}
+
+.contact-us {
+  font-weight: 300;
+  font-size: 25px;
+  color: #5E6578;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+  padding: 0;
+  padding-top: 20px;
+  letter-spacing: .02em;
+}
+
+.contact-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact-form {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  flex-basis: 500px;
+  flex-grow: .5;
+  height: 500px;
+}
+
+.contact-form .input {
+  display: flex;
+  font-style: oblique;
+  width: -webkit-fill-available;
+  margin: auto;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.form-address {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 33px;
 }
 
 /* =======================================Midia Quries================== */

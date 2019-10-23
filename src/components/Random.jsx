@@ -1,6 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRestroom } from '@fortawesome/free-solid-svg-icons';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+
 
 class Random extends React.Component {
   render() {
@@ -11,12 +14,12 @@ class Random extends React.Component {
             <form onSubmit={
               this.props.handleSubmit
             }>
-              <input
+              <input className="input"
                 value={this.props.userInput}
                 onChange={this.props.handleChange}
                 placeholder="Brooklyn"
               />&nbsp;
-              <button type="submit">Search</button>
+              <button className="btn btn-dark" type="submit">Search</button>
             </form>
           </div>
           <div className="scrollable-area">

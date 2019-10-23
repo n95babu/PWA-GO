@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { fetchBathrooms, fethRandomBathrooms } from '../services/Api-Helper';
 import Random from './Random'
+import Form from 'react-bootstrap/Form';
+
 
 class Bathroom extends Component {
   constructor(props) {
@@ -34,8 +36,8 @@ class Bathroom extends Component {
   handleChange = (e) => {
     this.setState({
       userInput: e.target.value
-    })
-  }
+    });
+  };
 
   render() {
     return (
